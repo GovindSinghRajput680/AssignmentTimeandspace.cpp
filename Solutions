@@ -1,0 +1,46 @@
+# Q 1:
+      since here inner and outer loops afre independent from each other
+      so we can multiplay their individual TCs to get final TC.
+      for T1 = O(n)
+      for inner loop :
+          j<n^(1/2)
+        so T1 = O(n^(1/2)
+      Therefore TC = T1*T2
+      So TC = O(n^(3/2))
+# Q 2:
+      since here inner and outer loops are independent from each other
+      so we can multiplay their individual TCs to get final TC.
+      for T1 = O(n)
+      for inner loop :
+        so by using the formula of GP we can say T2 = O(log n)
+      Therefore TC = T1*T2
+      So TC = O(nlog n)
+# Q 3:
+      since here inner and outer loops are independent from each other
+      so we can multiplay their individual TCs to get final TC.
+      for T1 = O(n)
+      for inner loop :
+          j<n^(1/2)
+        so by using the formula of GP we can say T2 =O((log n)/2) = O(log n)
+      Therefore TC = T1*T2
+      So TC = O(nlog n)
+# Q 4:
+      For outer loop :
+            i = n, n/2, n/2^2 ,...,2, 1
+            it is similar to reverse of this like -> i = 1,2,4,8,...,n/2, n 
+            Now inner loop will run i times for each value of i :
+            so no. of opereation = 1+2+4+8+ ...+n/2 + n
+            now add & subtract 1 then  no. of opereation = 2*n-1
+            so TC = O(n)
+# Q 5:
+      for in outer loop i will take this values:
+          1,2,4,8,...,n
+      now by using inner loop we can say no. of operation = (n-1) + (n-2) +(n-4) +(n-8) +...+(n-n/2)+(n-n)
+        = n*n -(2*n-1)
+      so TC = O(n^2)  
+        
+                   
+
+
+
+
